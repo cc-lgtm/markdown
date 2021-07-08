@@ -1,0 +1,22 @@
+.app {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+
+  #main {
+    width: 50%;
+    height: 98.5vh;
+    border: none;
+    outline-color: aqua;
+    resize: none;
+  }
+
+  #preview {
+    width: 50%;
+    height: 98.5vh;
+    background-color: #ccc;
+    overflow: scroll;
+  }
+}
